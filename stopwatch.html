@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <div id="count" style="font-size:48px;font-family:sans-serif;">00:00:00,0</div>
+    <script>
+
+        var ms = 0;
+        var sec = 0;
+        var min = 0;
+        var hour = 0;
+
+        function addSecond() {
+            ms = ms + 1;
+            if (ms >= 10) {
+                ms = 0;
+                sec = sec + 1;
+                if (sec >= 60) {
+                    sec = 0;
+                    min = min + 1;
+                    if (min >= 60) {
+                        min = 0;
+                        hour = hour + 1;
+                    }
+                }
+            }
+
+            if (sec < 10) {
+                str_sec = '0' + sec.toString()
+            } else {
+                str_sec = sec.toString()
+            }
+
+            if (min < 10) {
+                str_min = '0' + min.toString()
+            } else {
+                str_min = min.toString()
+            }
+
+            if (hour < 10) {
+                str_hour = '0' + hour.toString()
+            } else {
+                str_hour = hour.toString()
+            }
+
+            document.getElementById('count').innerHTML = str_hour + ":" + str_min + ":" + str_sec + "," + ms.toString()
+        }
+
+        setInterval(addSecond, 100);
+
+    </script>
+</body>
+</html>

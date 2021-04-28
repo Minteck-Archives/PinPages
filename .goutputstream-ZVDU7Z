@@ -1,0 +1,27 @@
+<?php
+
+$cwd = getcwd();
+
+function crawl(string $dir) {
+   $found = 0;
+   echo("(DIR) " . $dir . "\n");
+   $files = scandir($dir);
+   foreach ($files as $file) {
+      if (is_dir($file)) {
+         
+      } else {
+         if (is_link($file)) {} else {
+            echo("(DOC) " . $dir . "/" . $file . "\n");
+            $found = $found + count(file($dir . "/" . $file));
+         }
+      }
+   }
+   return $found;
+}
+
+if (PHP_SAPI === 'cli')
+{
+   echo("Couting lines...");
+   crawl($cwd);
+   echo("\nDONE!\nTotal code is " . crawl($cwd) . "
+}

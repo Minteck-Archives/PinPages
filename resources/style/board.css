@@ -1,0 +1,91 @@
+.abody.boardhome {
+    background-image: url("/resources/image/board_intro.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y: -40%;
+    animation: board-backgroundscroll 5s infinite linear;
+}
+
+@keyframes board-backgroundscroll {
+    0%   { background-position-y: -40%; }
+    50%  { background-position-y: -60%; }
+    100% { background-position-y: -40%; }
+}
+
+#boardpoints {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: span;
+}
+
+@media (max-width: 700px) {
+    #boardpoints {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    #boardpoints {
+        grid-template-columns: 1fr;
+    }
+}
+
+#boardsignup {
+    text-decoration: none;
+}
+
+.board-box-00 {
+    width: 100%;
+    height: calc(100% - 80px);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000ab;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    resize: none;
+}
+
+.board-box-01 {
+    width: 100%;
+    height: calc(100% - 80px);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000ab;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: "Ubuntu Mono", "Liberation Mono", "Noto Mono", 'Courier New', Courier, monospace;
+    resize: none;
+}
+
+.board-box-10 {
+    width: 100%;
+    height: calc(100% - 80px);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ffffffab;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    resize: none;
+}
+
+.board-box-11 {
+    width: 100%;
+    height: calc(100% - 80px);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ffffffab;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: "Ubuntu Mono", "Liberation Mono", "Noto Mono", 'Courier New', Courier, monospace;
+    resize: none;
+}

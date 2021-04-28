@@ -1,0 +1,21 @@
+#askemail {
+    background: rgba(255, 255, 118, .9);
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999px;
+}
+
+.header {
+    top: 22px;
+}
+
+.header_escape {
+    padding-top: 77px;
+}
+
+.board-box-00, .board-box-10, .board-box-01, .board-box-11 {
+    height: calc(100% - 80px - 22px);
+}

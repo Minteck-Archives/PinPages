@@ -1,0 +1,7 @@
+main: #bc3af1
+main-dark: #751d99
+main-light: #deb8ed
+secondary: #d97aff
+secondary-dark: #904faa
+extra-light: #e3dde6
+extra-dark: #2c1735

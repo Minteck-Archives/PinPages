@@ -1,0 +1,8 @@
+Options -Indexes
+ErrorDocument 500 "Illegal Instruction"
+ErrorDocument 500 https://pinpages.alwaysdata.net/errorpage/index.php
+ErrorDocument 404 https://pinpages.alwaysdata.net/errorpage/index.php
+ErrorDocument 403 https://pinpages.alwaysdata.net/errorpage/index.php
+ErrorDocument 401 https://pinpages.alwaysdata.net/errorpage/index.php
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Methods "GET,POST,OPTIONS,DELETE,PUT"

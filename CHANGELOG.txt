@@ -1,0 +1,72 @@
+PinPages 20.07 changes:
+  - Bugs fixes
+  - Brand nex UI, to make PinPages more modern
+
+PinPages 20.01 changes:
+  - Bugs fixes
+  - Updated fonts, colors, logo, and UI
+  - Language setting is now stored in cookies instead of URL — the ?lang argument is DEPRECATED
+  - Added a "Switch Language" (unlocalized) button to switch language if you selected the wrong one
+  - Optimized the notifications view
+  - Dark theme now update without reloading UI anymore
+  - Improved personal pages
+  - Added a status that shows on personal pages:
+    - online   if user accessed a page now      (last minute)
+    - inactive if user accessed a page recently (last 10 minutes)
+    - offline  if user didn't accessed a page last 10 minutes
+  - Prepared support for new apps
+  - Increased character limit for posts (from 500 to 1000)
+  - Added PinPages Board
+  - If email is linked with your account, you'll now need to confirm via email if you want to delete your account
+  - Showing a warning if email not linked
+  - Improved password hash security
+  - Corrected some email delivery problems
+  - Improved translations
+
+PinPages 19.08.1 changes:
+  - Added a button "Something to say?" (the old one was removed)
+  - User now cannot access its personal page if logged-out
+  - Added a RETURN argument to login and signup pages
+  - Improved mobile apps
+
+PinPages 19.08 changes:
+  - Miscellaneous bugs fixes
+  - Released new logo
+  - Added Markdown support for posts and comments
+  - Changed the way comments delete
+  - Added a footer at almost all pages
+  - Added Terms of use
+  - Improved settings
+  - Added an "About" panel in settings
+  - You can now browse PinPages without being logged in
+  - You can now set timezone to adjust time and date
+  - There's now a "Did you know?" section in the Today page
+  - Improved loader for signup and login pages
+  - Added a "View more about this user" button on user pages
+  - Disallowed creating users with internal names such as "system" or "api"
+
+PinPages 19.07 changes:
+  - Fixed those bugs:
+    * Public pages now load if user isn't your friend
+    * XSS on real name now can't be inserted
+    * Now IP-tempbans works
+    * Encoding problem in email solved
+    * Double accounts problems solved
+  - Token is now returned with Header instead of JavaScript. It can improve the security...
+  - When the token is invalid, the API return 401 Invalid Token
+  - When the request was successfully finished, the API return 200 API Request Done
+  - Moderators can now delete comments one by one instead of disabling comments
+  - You can now download the app through the settings
+  - You can now view the private page of your friends from search results
+  - We've setup an auto-moderation system! But we also need human moderators!
+
+PinPages 19.06.2 changes:
+  - Improved login and signup pages design
+  - Added "Settings" and "Page" button to the header
+  - Fixed those bugs:
+    * Views count now works
+  - Reviewed settings and dashboard (now Today)
+  - Automatically blocks an IP address if it have failed login too much to prevent bruteforce
+  - Added loaders for Signup and Login pages
+  - Added email support
+  - Added a password reset option

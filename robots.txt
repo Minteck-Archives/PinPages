@@ -1,0 +1,35 @@
+#
+# Hey, it seems like you're curious...
+#
+# Did you know that we're interested by people like you?
+# If you want to work for us, go here:
+#
+# http://minteck-projects.alwaysdata.net/jobs
+#
+
+# Did you arrived here by clicking a link like that:
+# There's something weird here
+#
+# REMEMBER to NOT click suspicious links, even from a professional website
+# This is just a raw text file, so it won't do anything on you, but you may know that viruses can hide.
+
+# This file will be EXTREMELY detailed
+
+# For EVERY robot
+User-agent: *
+
+# Allow root page
+Allow: /
+
+# Allow home page
+Allow: /app
+
+# Allow privacy policy page
+Allow: /privacy
+
+# Allow terms of use page
+Allow: /terms
+
+# Allow login and signup pages
+Allow: /login
+Allow: /signup

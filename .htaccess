@@ -1,0 +1,5 @@
+ErrorDocument 500 "Illegal Instruction"
+ErrorDocument 500 /errorpage/
+ErrorDocument 404 /errorpage/
+ErrorDocument 403 /errorpage/
+ErrorDocument 401 /errorpage/

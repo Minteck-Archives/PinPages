@@ -1,0 +1,248 @@
+.abody {
+    background: #38215f;
+}
+
+a, h1, h2, h3, h4, h5, h6, h7, span, div, body, label, .header_search {
+    color: #dfdfdf;
+}
+
+.tip {
+    color: #864c9c;
+}
+
+a:active, .jslink:active {
+    color: #522863;
+}
+
+a:hover, .jslink:hover {
+    color: #83409e;
+}
+
+.hiddenlink, .hiddenlink:active, .hiddenlink:hover, .hiddenlink:visited {
+    color: #dfdfdf;
+}
+
+a, .jslink {
+    color: #ae72e7;
+}
+
+.up_moderator {
+    filter: invert(0%);
+}
+
+.show_comments,.hide_comments {
+    filter: brightness(200%);
+}
+
+.show_comments:hover,.hide_comments:hover {
+    filter: brightness(100%);
+}
+
+.show_comments:active,.hide_comments:active {
+    filter: brightness(75%);
+}
+
+#dlconfirm {
+    color: white;
+    border-color: white;
+}
+
+#dlconfirm:active {
+    background-color: #ffffff42;
+}
+#dlconfirm:hover {
+    background-color: #ffffff1a;
+}
+
+/* .header {
+    background: rgba(35, 20, 60, 0.8);
+    box-shadow: 2px 5px 12px rgba(35, 20, 60);
+} */
+
+.header_submit, .header_logout, .header_settings, .header_menu, .header_page, .verified, .unverified, .ppadd, .ppupdate {
+    filter: brightness(200%);
+}
+
+.header_submit:hover, .header_logout:hover, .header_page:hover, .header_settings:hover, .header_link:hover, .ppadd:hover, .ppupdate:hover, .header_menu:hover {
+    filter: brightness(100%);
+}
+
+.header_submit:active, .header_logout:active, .header_page:active, .header_link:active,.header_settings:active .ppadd:active, .ppupdate:active, .header_menu:active {
+    filter: brightness(75%);
+}
+
+.red_color {
+    color: rgb(194, 0, 0);
+}
+
+.up_banner {
+    background-image: url("/resources/banner/normal_dark.png");
+    box-shadow: 1px 1px 20px #23143c;
+}
+
+.header_title > a > img {
+    filter: brightness(50%);
+}
+
+.ppadd,.ppupdate {
+    filter: brightness(200%);
+}
+
+.accountadminicons {
+    filter: brightness(200%);
+}
+
+.up_newlogo {
+    filter: invert(0%);
+}
+
+.ep_text {
+    background: rgb(35, 20, 60);
+    color: #dfdfdf;
+    border-bottom-color: #0b0614;
+    border-top-color: #0b0614;
+    border-left-color: #0b0614;
+    border-right-color: #0b0614;
+}
+
+.up_noprof,.up_profile {
+    box-shadow: 1px 1px 20px whitesmoke;
+    filter: invert(0%);
+}
+
+.up_noppic {
+    filter: invert(0%);
+}
+
+.up_viewtooltip {
+    filter: brightness(200%);
+}
+
+.validation, .private, .public, .srimage, .partnership {
+    filter: none;
+}
+
+.dlbutton {
+    filter: contrast(0%) brightness(175%);
+}
+
+.hpage {
+    background: #38215f;
+}
+
+/* Polymer Design CSS */
+/* .header {
+    background: rgba(21, 18, 26, 0.8);
+} */
+
+.abody {
+    background: #211c2b
+}
+
+.tip {
+    color: #575757;
+}
+
+.settings_panel {
+    background: #424242;
+}
+
+.settingpc:hover {
+    background: #8e8e8e;
+}
+
+.settingpc:active {
+    background: #252525;
+    color: white;
+}
+
+.settingpc_specialsep {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.settingpc_special {
+    cursor: pointer;
+    color: rgb(187, 133, 187) !important;
+    text-align: left;
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: -10px;
+    padding: 5px;
+    background: transparent;
+    transition: background 200ms;
+    border-radius: 5px;
+}
+
+.settingpc_special:hover {
+    background: #8e8e8e;
+}
+
+.settingpc_special:active {
+    background: rgb(187, 133, 187) !important;
+    color: black !important;
+}
+
+#more_switch {
+    filter: brightness(200%);
+}
+
+/* Polymer3 colors */
+.header {
+    box-shadow: 2px 2px 5px rgb(30, 30, 30);
+    background: rgba(88, 104, 151, 0.9);
+}
+
+.abody {
+    background: #1a1a1a;
+}
+
+a, .jslink {
+    color: #7279e7;
+}
+
+a:hover, .jslink:hover {
+    color: #404f9e;
+}
+
+a:active, .jslink:active {
+    color: #283463;
+}
+
+.icc, .ael_img {
+    filter: brightness(200%);
+}
+
+#searchbar::placeholder {
+    color: #b0c6f0;
+}
+
+#sidebar {
+    background: #1e1e1e;
+}
+
+.ep_text {
+    background: rgb(43, 43, 43);
+}
+
+.up_badge_el {
+    filter: brightness(200%);
+}
+
+.abody.boardhome {
+    background-blend-mode: soft-light;
+}
+
+#searchbar {
+    color: white;
+}
+
+#askemail {
+    background: rgba(85, 85, 38, .9) !important;
+}
+
+.obody {
+    background-color: #424f60;
+}

@@ -1,0 +1,639 @@
+.nd_WelcomeBkg {
+    background-image: url("/resources/image/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nd_Parent {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 35px;
+    color: #2e2f32;
+}
+
+.nd_Logo {
+    height: 54px;
+    margin-top: 2px;
+}
+
+.nd_ButtonGroup {
+    margin-top: 10px;
+}
+
+.nd_ButtonRow {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 12px 0 0;
+}
+
+.nd_ButtonRow > * {
+    margin: 0 10px;
+}
+
+.nd_ButtonRow > *:first-child {
+    margin-left: 0;
+}
+
+.nd_ButtonRow > *:last-child {
+    margin-right: 0;
+}
+
+.nd_ButtonParent {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    text-decoration: none;
+    color: #2e2f32 !important;
+}
+
+.nd_ButtonLabel {
+    margin-left: 20px;
+}
+
+.nd_Header_title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 0;
+}
+
+.nd_Header_subtitle {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 8px 0 0;
+}
+
+.nd_ButtonSignIn {
+    background-color: #368BD6;
+    color: white !important;
+}
+
+.nd_ButtonCreateAccount {
+    background-color: #03B381;
+    color: white !important;
+}
+
+.nd_SecondaryButton {
+    background-color: #FFFFFF;
+    color: #2E2F32;
+}
+
+.nd_Button_iconSignIn {
+    background-image: url('/resources/icons/new/sign-in.svg');
+}
+
+.nd_Button_iconCreateAccount {
+    background-image: url('/resources/icons/new/register.svg');
+}
+
+.nd_Button_iconHelp {
+    background-image: url('/resources/icons/new/help.svg');
+}
+
+.nd_WelcomePage:not(.nd_WelcomePage_loggedIn) .nd_WelcomePage_guestFunctions {
+    display: none;
+}
+
+.nd_ButtonRow.nd_WelcomePage_guestFunctions {
+    margin-top: 20px;
+}
+.nd_ButtonRow.nd_WelcomePage_guestFunctions > div {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .nd_ButtonRow {
+        flex-direction: column;
+    }
+
+    .nd_ButtonRow > * {
+        margin: 0 0 10px 0;
+    }
+}
+
+.nd_AuthPage_modal {
+    margin: 0 auto auto;
+    padding-top: 100px;
+    border-radius: 4px;
+    background-color: hsla(0,0%,100%,.59);
+}
+
+.nd_AuthPage_modalBlur {
+    margin-top: 100px;
+}
+
+.nd_Welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nd_Parent {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 35px;
+    color: #2e2f32;
+}
+
+.nd_AuthPage_modalContent, .nd_AuthPage_modal {
+    width: max-content;
+}
+
+.nd_AuthPage_modalContent {
+    position: relative;
+}
+
+@font-face {
+    font-family:Nunito;
+    font-style:normal;
+    font-weight:400;
+    src:url("/resources/fonts/Nunito-Regular.ttf") format("truetype")
+}
+@font-face {
+    font-family:Nunito;
+    font-style:normal;
+    font-weight:600;
+    src:url("/resources/fonts/Nunito-SemiBold.ttf") format("truetype")
+}
+@font-face {
+    font-family:Nunito;
+    font-style:normal;
+    font-weight:700;
+    src:url("/resources/fonts/Nunito-Bold.ttf") format("truetype")
+}
+
+input, a, h1, h2, h3, h4, h5, h6, span, div, body, * {
+    font-family: 'Nunito', 'Roboto', sans-serif !important;
+}
+
+.nd_Welcome .nd_AuthBody_language {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.nd_Dropdown {
+    position: relative;
+    color: #2e2f32;
+}
+
+.nd_AuthBody_language {
+    width: 100%;
+}
+
+.nd_AuthBody_language .nd_Dropdown_input {
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4e5054;
+}
+
+.nd_Dropdown_input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+    font-size: 1.2rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nd_AccessibleButton {
+    cursor: pointer;
+}
+
+.nd_Dropdown_input > .nd_Dropdown_option, .nd_Dropdown_option div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nd_Dropdown_input > .nd_Dropdown_option {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nd_Dropdown_option {
+    height: 35px;
+    line-height: 3.5rem;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.nd_AuthBody_language .nd_Dropdown_arrow {
+    background: #4e5054;
+}
+
+.nd_Dropdown_arrow {
+    width: 10px;
+    height: 6px;
+    padding-right: 9px;
+    -webkit-mask: url("/resources/icons/new/arrow-down.svg");
+    mask: url("/resources/icons/new/arrow-down.svg");
+        mask-repeat: repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background: #2e2f32;
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+html {
+    scrollbar-color: rgba(0,0,0,.2) transparent;
+}
+
+.nd_Dropdown_option {
+    font-size: 14px;
+}
+
+.nd_AuthHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 206px;
+    padding: 25px 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nd_AuthHeaderLogo {
+    margin-top: 15px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.nd_AuthHeaderLogo img {
+    width: 100%;
+}
+
+.nd_AuthBody {
+    width: 500px;
+    font-size: 1.2rem;
+    color: #61708b;
+    background-color: #fff;
+    border-radius: 0 4px 4px 0;
+    padding: 25px 60px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nd_AuthBody h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #232f32;
+}
+
+h2 {
+    color: #2e2f32;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.nd_AuthBody h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #232f32;
+}
+
+.nd_Field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    margin: 1em 0;
+    border-radius: 4px;
+    -webkit-transition: border-color .25s;
+    transition: border-color .25s;
+    border: 1px solid #e7e7e7;
+}
+
+.nd_AuthBody .nd_Field input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nd_AuthBody .nd_Field input, .nd_AuthBody .nd_Field select {
+    color: #232f32;
+    background-color: #fff;
+}
+
+.nd_AuthBody input[type="password"], .nd_AuthBody input[type="text"] {
+    color: #232f32;
+}
+
+.nd_Field input, .nd_Field select, .nd_Field textarea {
+    font-weight: 400;
+    font-family: Nunito,Twemoji,Apple Color Emoji,Segoe UI Emoji,Arial,Helvetica,Sans-Serif,Noto Color Emoji;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 9px;
+    color: #2e2f32;
+    background-color: #fff;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+input[type="password"], input[type="text"], textarea {
+    background-color: transparent;
+    color: #2e2f32;
+}
+
+input[type="password"], input[type="search"], input[type="text"] {
+    padding: 9px;
+    font-family: Nunito,Twemoji,Apple Color Emoji,Segoe UI Emoji,Arial,Helvetica,Sans-Serif,Noto Color Emoji;
+    font-size: 1.4rem;
+    font-weight: 600;
+    min-width: 0;
+}
+
+.nd_AuthBody .nd_Field_labelAlwaysTopLeft label, .nd_AuthBody .nd_Field input:focus + label, .nd_AuthBody .nd_Field input:not(:placeholder-shown) + label, .nd_AuthBody .nd_Field select + label, .nd_AuthBody .nd_Field textarea:focus + label, .nd_AuthBody .nd_Field textarea:not(:placeholder-shown) + label {
+    background-color: #fff;
+}
+
+.nd_Field_labelAlwaysTopLeft label, .nd_Field input:focus + label, .nd_Field input:not(:placeholder-shown) + label, .nd_Field select + label, .nd_Field textarea:focus + label, .nd_Field textarea:not(:placeholder-shown) + label {
+    -webkit-transition: font-size .25s ease-out 0s,color .25s ease-out 0s,top .25s ease-out 0s,background-color .25s ease-out 0s;
+    transition: font-size .25s ease-out 0s,color .25s ease-out 0s,top .25s ease-out 0s,background-color .25s ease-out 0s;
+    font-size: 1rem;
+    top: -13px;
+    padding: 0 2px;
+    background-color: #fff;
+    pointer-events: auto;
+}
+
+.nd_AuthBody .nd_Field label {
+    color: #232f32;
+}
+
+.nd_Field label {
+    -webkit-transition: font-size .25s ease-out .1s,color .25s ease-out .1s,top .25s ease-out .1s,background-color .25s ease-out .1s;
+    transition: font-size .25s ease-out .1s,color .25s ease-out .1s,top .25s ease-out .1s,background-color .25s ease-out .1s;
+    color: #2e2f32;
+    background-color: transparent;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 7px 8px;
+    padding: 2px;
+    pointer-events: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 20px);
+}
+
+div.nd_AccessibleButton_kind_link.nd_Login_forgot {
+    font-size: inherit;
+    padding: 0;
+}
+
+.nd_AccessibleButton_kind_link {
+    color: #03b381;
+    background-color: transparent;
+}
+
+.nd_AccessibleButton_hasKind {
+    padding: 7px 18px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.nd_AccessibleButton {
+    cursor: pointer;
+}
+
+.nd_Login_submit {
+    vertical-align: middle;
+    border: 0;
+    border-radius: 4px;
+    font-family: Nunito,Twemoji,Apple Color Emoji,Segoe UI Emoji,Arial,Helvetica,Sans-Serif,Noto Color Emoji;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #03b381;
+    width: auto;
+    padding: 7px 1.5em;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.nd_AuthBody a:hover, .nd_AuthBody a:link, .nd_AuthBody a:visited {
+    color: #03b381;
+    text-decoration: none;
+}
+
+a:hover, a:link, a:visited {
+    color: #238cf5;
+}
+
+.nd_AuthBody_changeFlow {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
+form {
+    margin: 0;
+}
+
+.nd_Field input::placeholder {
+    color: transparent;
+}
+
+.nd_ButtonLabel {
+    font-size: 1.4em;
+}
+
+.nd_Login_error {
+    color: #ff4b55;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nd_Login_success {
+    color: #60ff4b;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nd_Login_submit:disabled {
+    opacity: .3;
+    cursor: default;
+}
+
+.nd_Field input:disabled, .nd_Field input:disabled + label, .nd_Field select:disabled, .nd_Field select:disabled + label, .nd_Field textarea:disabled, .nd_Field textarea:disabled + label {
+    background-color: #fff;
+    color: #888;
+}
+
+@media (max-width: 550px) {
+    .nd_AuthPage_modal {
+        padding: 0;
+    }
+
+    .nd_AuthHeader {
+        display: none;
+    }
+
+    .nd_AuthBody {
+        padding: 10px;
+    }
+
+    .nd_AuthPage_modalContent, .nd_AuthPage_modal {
+        width: 100%;
+    }
+
+    .nd_Grid_two {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.nd_AuthFooter {
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    opacity: .72;
+    padding: 20px 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.8)));
+    background: linear-gradient(transparent,rgba(0,0,0,.8));
+}
+
+.nd_AuthFooter a:hover, .nd_AuthFooter a:link, .nd_AuthFooter a:visited {
+    color: #fff;
+    margin: 0 22px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.nd_AuthFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.nd_Grid_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nd_PNoMargin {
+    margin-bottom: 0;
+}
