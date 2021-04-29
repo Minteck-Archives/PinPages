@@ -16,8 +16,8 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'in-v3.mailjet.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = '5cc8c4eff737360997275f4cd9e3e863';                     // SMTP username
-    $mail->Password   = '06b47c6cb1ff7055d8125feb2728d0ec';                               // SMTP password
+    $mail->Username   = '<your mailjet api username here>';                     // SMTP username
+    $mail->Password   = '<your mailjet api passwd here>';                               // SMTP password
     $mail->SMTPSecure = 'none';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
@@ -57,8 +57,8 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'in-v3.mailjet.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = '5cc8c4eff737360997275f4cd9e3e863';                     // SMTP username
-    $mail->Password   = '06b47c6cb1ff7055d8125feb2728d0ec';                               // SMTP password
+    $mail->Username   = '<your mailjet api username here>';                     // SMTP username
+    $mail->Password   = '<your mailjet api passwd here>';                               // SMTP password
     $mail->SMTPSecure = 'none';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
